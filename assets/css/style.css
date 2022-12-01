@@ -1,8 +1,83 @@
 /* IMPOSTAZIONI GENERALI */
+* {
+  max-width: 500px;
+}
+
+html {
+  background-image: url("../img/sfondo.png");
+  background-repeat: repeat-y;
+  background-size: 150%;
+  background-position-y: -20em;
+  background-position-x: -9em;
+  font-family: Poppins;
+}
+
+div {
+  /*   margin: 10px auto; */
+}
+
+.box {
+  -webkit-box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 3px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+body {
+  margin: 0 30px;
+}
+
+p,
+ul,
+li,
+table,
+form,
+h3,
+h4 {
+  margin: 20px;
+}
 
 /* HEADER */
+header {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.header_logo {
+}
+
+.header_box {
+  background-color: #0088aa;
+  padding: 30px 30px 40px 10px;
+}
+
+.nav {
+  color: white;
+  text-decoration-line: none;
+  padding: 20px;
+  font-size: 1.2em;
+  font-weight: 400;
+}
 
 /* MAIN */
+
+main {
+  margin: 30px auto;
+}
+
+.main_box {
+  background-color: white;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 40px 10px 40px 10px;
+}
+
+.video {
+  padding: 20px;
+}
+iframe {
+  border-radius: 30px;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
@@ -13,3 +88,27 @@
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+.footer_box {
+  text-align: center;
+  margin: 30px auto 20px;
+  padding: 20px;
+  color: white;
+  background: rgb(0, 85, 102);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 85, 102, 1) 41%,
+    rgba(42, 51, 56, 1) 89%
+  );
+}
+
+h4 {
+  padding: 5px 10px 30px 10px;
+}
+
+.p_footer {
+  padding: 10p;
+}
+
+.mail {
+  color: #ff00fe;
+}
