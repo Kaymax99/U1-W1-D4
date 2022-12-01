@@ -42,34 +42,34 @@
         <article>
           <div>
             <h2>Come creare un template per i post</h1>
-            <p>di Mario Rossi - pubblicato il 25-10-2020</p>
+            <p class="credit">di Mario Rossi - pubblicato il 25-10-2020</p>
           </div>
           <div>
             <p>
               La prima cosa da fare è suddividere in blocchi logici la pagina,
-              identificando le parti comuni da applicare a tutte le pagine
+              identificando le <b class="emphasise1">parti comuni</b> da applicare a tutte le pagine
             </p>
           </div>
           <div>
             <p>Le varie aree saranno quindi suddivise in:</p>
             <ul>
-              <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+              <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
               <li>
-                Contenuti centrali variabili del tag &lt;main&gt; (corpo
+                Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo
                 principale)
               </li>
               <li>
                 Contenuti di fine pagina comuni, da inserire nel tag
-                &lt;footer&gt;
+                <code>&lt;footer&gt;</code>
               </li>
             </ul>
           </div>
           <div>
             <p>Formattazione del codice<br />
               Il testo dell'articolo dovrà essere formattato per identificare
-              tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+              tutte le parti da <b class="emphasise1">selezionare con i CSS</b>. Perciò i passi saranno:
             </p>
-            <ul>
+            <ol>
               <li>
                 Progettare il markup assegnando ad ogni specifico testo il tag
                 appropriato
@@ -79,16 +79,16 @@
                 verso il basso
               </li>
               <li>Applicare gli stili CSS</li>
-            </ul>
+            </ol>
           </div>
           <p>
             L'applicazione di stili CSS è cresciuta negli anni fino a
             raggiungere la diffusione pressoché totale
           </p>
           <div>
-            <table>
+            <table id="distribution">
               <caption>
-                Diffusione dei CSS
+                <b><i>Diffusione dei CSS</i></b>
               </caption>
               <tr>
                 <th>Anno</th>
@@ -126,7 +126,7 @@
             <p>
               Un test di validazione potrà essere fatto tramite il
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                ><b>tool online</b></a
+                ><b class="emphasise">tool online</b></a
               >
               dedicato allo scopo. Una volta ottimizzato il tutto, avremo
               raggiunto il nostro obiettivo ad essere stati dei veri developer
@@ -147,37 +147,38 @@
         </article>
       </main>
       <aside>
-        <div>
+        <div class="box_articoli">
+          <h3> NOVITÀ</h3>
           <p>
             Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
             nostra newsletter:
           </p>
           <form>
             <input type="text" placeholder="Inserisci l'email" />
-            <button type="button">Iscriviti!</button>
+            <button type="button"><span class="emphasise2">Iscriviti!</span></button>
           </form>
         </div>
         <div>
-          <section>
+          <h3>ARTICOLI CORRELATI</h3>
+          <section class="box_articoli">
             <p>
-              <h3>Articoli correlati</h3>
-              <b><a href="#">Validare il codice HTML</a></b
+              <b><a href="#" class="emphasise">Validare il codice HTML</a></b
               ><br />
               Categoria: develop<br />
               Data: 18-9-2020
             </p>
           </section>
-          <section>
+          <section class="box_articoli">
             <p>
-              <b><a href="#">Correggere la sintassi</a></b
+              <b><a href="#" class="emphasise">Correggere la sintassi</a></b
               ><br />
               Categoria: develop<br />
               Data: 16-9-2020
             </p>
           </section>
-          <section>
+          <section class="box_articoli">
             <p>
-              <b><a href="#">Kb nella pagina</a></b
+              <b><a href="#" class="emphasise">Kb nella pagina</a></b
               ><br />
               Categoria: ottimizzazione<br />
               Data: 30-9-2020
@@ -193,7 +194,7 @@
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - Via
         Luigi Einaudi 2 - Milano. P.IVA 00112233
       </p>
-      <a class="mail" href="mailto:info@epicode.school">info@epicode.school</a>
+      <a class="emphasise1" href="mailto:info@epicode.school">info@epicode.school</a>
     </footer>
   </body>
 </html>
