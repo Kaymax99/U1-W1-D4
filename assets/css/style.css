@@ -168,9 +168,15 @@ h3 {
 }
 .box_articoli {
   padding: 20px;
+  padding-bottom: 0;
   margin: 20px;
   background-color: #ddddde;
   border: solid 1px #cccccc;
+}
+
+.date {
+  text-align: right;
+  margin-bottom: 0;
 }
 
 /* FOOTER */
